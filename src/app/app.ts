@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { PrimeiroComponente } from "./primeiro-componente/primeiro-componente";
+import { SegundoComponente } from "./segundo-componente/segundo-componente";
+import { PipeCustomizado } from "./pipe-customizado/pipe-customizado";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [PrimeiroComponente, SegundoComponente, PipeCustomizado],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

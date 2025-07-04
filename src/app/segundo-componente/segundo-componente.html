@@ -1,0 +1,9 @@
+<h1>Aprofundando os conhecimentos em Angular</h1>
+
+<p>Interpolação de dados</p>
+<img [src]="urlImagem" width="550">
+<p>Nome: {{ nome | uppercase }}</p>
+<p>Data de Nascimento: {{ dataNascimento | date : "dd/MM/yyyy" }}</p>
+
+<button type="button" (click)="exibir()" class="btn btn-primary">Exibir Data de Nascimento</button>
+
