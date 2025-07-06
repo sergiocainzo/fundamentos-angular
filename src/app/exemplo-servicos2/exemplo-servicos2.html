@@ -3,3 +3,4 @@
 <label for="nome">Digite a descrição do produto: </label>
 <input type="text" class="form-control w-50" [(ngModel)]="descricao">
 <button type="button" class="btn btn-warning" (click)="adicionarProduto()">Adicionar nome</button>
+<button type="button" class="btn btn-danger mx-3" (click)="this.logger.exibirTodosOsLogs()">Exibir todos os logs</button>

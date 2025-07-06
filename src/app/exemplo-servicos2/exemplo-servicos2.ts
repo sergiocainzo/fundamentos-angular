@@ -13,8 +13,8 @@ export class ExemploServicos2 {
   descricao = '';
 
   constructor(public logger: Logger) {}
-  
+
   adicionarProduto() {
-    this.logger.logar(`O produto: ${this.descricao}foi adicionado.`);
+    this.logger.logar(`O produto: ${this.descricao}, foi adicionado.`);
   }
 }
