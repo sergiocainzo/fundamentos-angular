@@ -1,0 +1,15 @@
+ul {
+  li{
+    margin-bottom: 10px;
+    span{
+      background-color: green;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .esgotado{
+      background-color: black;
+      color: white;
+    }
+  }
+}
