@@ -1,19 +1,43 @@
-<app-primeiro-componente></app-primeiro-componente>
-<hr>
-<app-segundo-componente></app-segundo-componente>
-<hr>
-<app-pipe-customizado></app-pipe-customizado>
-<hr>
-<app-data-binding></app-data-binding>
-<hr>
-<app-renderizando-listas></app-renderizando-listas>
-<hr>
-<app-componente-personalizado nome="Sergio" sobrenome="Cainzo"></app-componente-personalizado>
-<app-componente-personalizado nome="Yuri" sobrenome="Cainzo"></app-componente-personalizado>
-<hr>
-<app-compoente-pai></app-compoente-pai>
-<hr>
-<app-exemplo-servicos1></app-exemplo-servicos1>
-<app-exemplo-servicos2></app-exemplo-servicos2>
-<hr>
-<app-ciclo-de-vida-pai></app-ciclo-de-vida-pai>
+<app-card titulo="Primeiro Componente" cor="#3D4D63">
+  <app-primeiro-componente></app-primeiro-componente>
+</app-card>
+<hr />
+<app-card titulo="Aprofundando o conhecimento em Template" cor="#3D4D63">
+  <app-segundo-componente></app-segundo-componente>
+</app-card>
+<hr />
+<app-card titulo="Multiplicador Pipe" cor="yellow">
+  <app-pipe-customizado></app-pipe-customizado>
+</app-card>
+<hr />
+<app-card titulo="Data Binding" cor="grey">
+  <app-data-binding></app-data-binding>
+</app-card>
+<hr />
+<app-card titulo="Renderizando Lista de Dados" cor="red">
+  <app-renderizando-listas></app-renderizando-listas>
+</app-card>
+<hr />
+<app-card titulo="Componentes Personalizados (Input)" cor="#3D4D63">
+  <app-componente-personalizado
+    nome="Sergio"
+    sobrenome="Cainzo"
+  ></app-componente-personalizado>
+  <app-componente-personalizado
+    nome="Yuri"
+    sobrenome="Cainzo"
+  ></app-componente-personalizado>
+</app-card>
+<hr />
+<app-card titulo="Componente Pai">
+  <app-compoente-pai></app-compoente-pai>
+</app-card>
+<hr />
+<app-card titulo="Serviços" cor="#3d4d">
+  <app-exemplo-servicos1></app-exemplo-servicos1>
+  <app-exemplo-servicos2></app-exemplo-servicos2>
+</app-card>
+<hr />
+<app-card titulo="Ciclo de Vida!" cor="#245d">
+  <app-ciclo-de-vida-pai></app-ciclo-de-vida-pai>
+</app-card>

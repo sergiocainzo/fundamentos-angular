@@ -10,10 +10,11 @@ import { ExemploServicos1 } from "./exemplo-servicos1/exemplo-servicos1";
 import { ExemploServicos2 } from "./exemplo-servicos2/exemplo-servicos2";
 import { CicloDeVida } from "./ciclo-de-vida/ciclo-de-vida";
 import { CicloDeVidaPai } from "./ciclo-de-vida-pai/ciclo-de-vida-pai";
+import { Card } from "./card/card";
 
 @Component({
   selector: 'app-root',
-  imports: [PrimeiroComponente, SegundoComponente, PipeCustomizado, DataBinding, RenderizandoListas, ComponentePersonalizado, CompoentePai, ExemploServicos1, ExemploServicos2, CicloDeVida, CicloDeVidaPai],
+  imports: [PrimeiroComponente, SegundoComponente, PipeCustomizado, DataBinding, RenderizandoListas, ComponentePersonalizado, CompoentePai, ExemploServicos1, ExemploServicos2, CicloDeVida, CicloDeVidaPai, Card],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
